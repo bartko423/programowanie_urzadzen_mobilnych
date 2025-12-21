@@ -12,7 +12,7 @@ Projekt skupia się na:
     klasycznym układzie poziomów z platformami statycznymi i ruchomymi.
 
 Celem było stworzenie lekkiego, przejrzystego silnika platformówki, który można łatwo rozwijać o nowe mechaniki.
-🛠️ Użyte technologie
+ Użyte technologie
 Android / Kotlin
 
 Cała gra została napisana w Kotlinie, korzystając z:
@@ -26,7 +26,7 @@ Cała gra została napisana w Kotlinie, korzystając z:
     własnej pętli gry (GameThread) — stabilne 60 FPS.
 
 To podejście daje pełną kontrolę nad wydajnością i zachowaniem gry, bez narzucania ograniczeń silników typu Unity.
-🎨 Grafika i animacje
+Grafika i animacje
 PixelLab
 
 Do tworzenia i skalowania animacji sprite’ów użyłem narzędzia PixelLab, które pozwoliło:
@@ -48,7 +48,7 @@ Każda animacja to lista bitmap, przełączana w zależności od:
     prędkości ruchu.
 
 System jest lekki, prosty i w pełni kontrolowany z poziomu kodu.
-🧩 Dlaczego takie rozwiązania?
+Dlaczego takie rozwiązania?
 1. Wzorowanie na Mario — sprawdzone mechaniki
 
 Projekt bazuje na klasycznych rozwiązaniach z Mario, ponieważ:
